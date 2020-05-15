@@ -1,1 +1,36 @@
-<body></body>
+<html>
+
+<head>
+    <title>Final App</title>
+    <link rel="stylesheet" href="css_everything.css">
+</head>
+
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <h2>You pick first!</h2>
+    <div>
+        <svg width="450" height="450">
+            <line x1="150" y1="0" x2="150" y2="450" stroke="black" stroke-width=7 />
+            <line x1="300" y1="0" x2="300" y2="450" stroke="black" stroke-width=7 />
+            <line x1="0" y1="150" x2="450" y2="150" stroke="black" stroke-width=7 />
+            <line x1="0" y1="300" x2="450" y2="300" stroke="black" stroke-width=7 />
+
+            <rect x="15" y="15" width="120" height="120" fill=rgb(228,247,255) id="oneone" />
+            <rect x="165" y="15" width="120" height="120" fill=rgb(228,247,255) id="onetwo" />
+            <rect x="315" y="15" width="120" height="120" fill=rgb(228,247,255) id="onethree" />
+
+            <rect x="15" y="165" width="120" height="120" fill=rgb(228,247,255) id="twoone" />
+            <rect x="165" y="165" width="120" height="120" fill=rgb(228,247,255) id="twotwo" />
+            <rect x="315" y="165" width="120" height="120" fill=rgb(228,247,255) id="twothree" />
+
+            <rect x="15" y="315" width="120" height="120" fill=rgb(228,247,255) id="threeone" />
+            <rect x="165" y="315" width="120" height="120" fill=rgb(228,247,255) id="threetwo" />
+            <rect x="315" y="315" width="120" height="120" fill=rgb(228,247,255) id="threethree" />
+        </svg>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js_ttt_pg.js"></script>
+</body>
+
+</html>
