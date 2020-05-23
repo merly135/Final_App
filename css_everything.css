@@ -54,7 +54,22 @@ img:hover:not(.active){
 
 div{
     text-align: center;
-    margin-top: 100px;
+    height: 150px;
+}
+.box{
+    display: inline-block;
+    width:120px;
+    height:120px;
+    background-color: rgb(228,247,255);
+    margin: 10px;
+}
+
+.box.active{
+  background-color:rgb(228,247,255);
+}
+
+.box:hover:not(.active){
+  background-color: #189399;
 }
 
 .rps{
@@ -63,11 +78,12 @@ div{
     display: inline-block;
 }
 
-rect {
-  width: 120px;
-  height: 120px;
+#add{
+    margin-top: 100px;
 }
 
-rect:hover {
-  fill: #189399;
+.ooo, .xxx{
+    padding: 0px;
+    width: 120px;
+    height: 120px;
 }
